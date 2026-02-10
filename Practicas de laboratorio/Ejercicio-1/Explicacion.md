@@ -46,7 +46,7 @@ Si salio bien, se vera `(env)` al inicio de la linea:
 (env) PS C:\Users\...\pyton>
 ```
 
-![Activación del entorno virtual](Assest/Screenshot 2026-02-05 105206.png)
+![Activación del entorno virtual](https://github.com/Staticxddd/Lab.-de-Introduccion-a-la-Programacion./blob/main/Practicas%20de%20laboratorio/Ejercicio-1/Assets/Screenshot%202026-02-05%20105206.png)
 
 ---
 
@@ -66,7 +66,7 @@ Si salio bien, se vera `(env)` al inicio de la linea:
 Python 3.x (env) .\env\Scripts\python.exe
 ```
 
-![Seleccionar interprete](Assets/Screenshot 2026-02-05 105239.png)
+![Seleccionar interprete](https://github.com/Staticxddd/Lab.-de-Introduccion-a-la-Programacion./blob/main/Practicas%20de%20laboratorio/Ejercicio-1/Assets/Screenshot%202026-02-05%20105239.png)
 
 ---
 
@@ -92,7 +92,7 @@ print(np.random.rand(3, 3))
 
 Si VS Code muestra autocompletado (`np.random`, `np.array`, etc.), el entorno está instalado.
 
-![Autocompletado de NumPy](Assets/Screenshot 2026-02-05 105330.png)
+![Autocompletado de NumPy](https://github.com/Staticxddd/Lab.-de-Introduccion-a-la-Programacion./blob/main/Practicas%20de%20laboratorio/Ejercicio-1/Assets/Screenshot%202026-02-05%20105330.png)
 
 ---
 
