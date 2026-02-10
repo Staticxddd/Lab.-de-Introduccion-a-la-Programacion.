@@ -15,7 +15,7 @@
 ## 1. Crear una carpeta para el entorno:
 
 1. Crea una carpeta para el entorno (por ejemplo: `Python`)
-2. Ábrela en el VS Code:
+2. Abrela en el VS Code:
    - `Archivo > Abrir carpeta`
 
 ---
@@ -28,7 +28,7 @@ Abre la terminal de VS Code y ejecuta el siguiente comando:
 python -m venv env
 ```
 
-Esto creará la carpeta llamada `env` con el entorno.
+Esto creara la carpeta llamada `env` con el entorno.
 
 ---
 
@@ -40,7 +40,7 @@ En la terminal de VS Code, ejecuta:
 env\Scripts\activate
 ```
 
-Si salió bien, se vera `(env)` al inicio de la línea:
+Si salio bien, se vera `(env)` al inicio de la linea:
 
 ```powershell
 (env) PS C:\Users\...\pyton>
@@ -50,7 +50,7 @@ Si salió bien, se vera `(env)` al inicio de la línea:
 
 ---
 
-## 4. Seleccionar el intérprete de Python en VS Code:
+## 4. Seleccionar el interprete de Python en VS Code:
 
 1. Presiona:
    ```
@@ -60,19 +60,19 @@ Si salió bien, se vera `(env)` al inicio de la línea:
    ```
    Python: Select Interpreter
    ```
-3. Selecciona el intérprete que diga algo como:
+3. Selecciona el interprete que diga algo como:
 
 ```
 Python 3.x (env) .\env\Scripts\python.exe
 ```
 
-![Seleccionar intérprete](Assets/Screenshot 2026-02-05 105239.png)
+![Seleccionar interprete](Assets/Screenshot 2026-02-05 105239.png)
 
 ---
 
-## 5. Instalar librerías dentro del entorno:
+## 5. Instalar el numpy en el entorno:
 
-Con el entorno activado (`(env)` visible), instala las librerías usando el `pip` en la terminal:
+Con el entorno activado (`(env)` visible), instala las librerias usando el `pip` en la terminal:
 
 ```powershell
 pip install numpy
