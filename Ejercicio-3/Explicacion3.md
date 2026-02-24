@@ -10,13 +10,15 @@ Tambien limita a 3 intentos. Si fallas 3 veces... se bloquea.
 
 Primero agregamos los datos correctos en el código:
 
-```usuario_correcto = "admin"\
+```
+usuario_correcto = "admin"\
 contraseña_correcta = "Admin2026"
 ```
 
 Luego definimos que solo haya 3 intentos:
 
-```intentos = 3
+```
+intentos = 3
 ```
 
 ------------------------------------------------------------------------
@@ -29,7 +31,8 @@ Se hizo una funcion para revisar que el usuario:
 -   Solo tenga letras y numeros
 -   No tenga espacios
 
-```def validar_usuario(usuario): if not usuario: return False if not
+```
+def validar_usuario(usuario): if not usuario: return False if not
 usuario.isalnum(): return False return True
 ```
 
@@ -43,7 +46,8 @@ La contraseña debe cumplir:
 -   Al menos 1 letra
 -   Al menos 1 numero
 
-```def validar_contraseña(contraseña): if len(contraseña) \< 8: return
+```
+def validar_contraseña(contraseña): if len(contraseña) \< 8: return
 False
 
     tiene_letra = False
@@ -64,12 +68,14 @@ False
 
 Se usa un while para repetir mientras haya intentos disponibles:
 
-```while intentos \> 0:
+```
+while intentos \> 0:
 ```
 
 Si los valores estan mal:
 
-```intentos -= 1
+```
+intentos -= 1
 ```
 
 Si llega a 0, el programa termina y muestra que no se tuvo acceso.
