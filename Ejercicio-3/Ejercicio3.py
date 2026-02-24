@@ -31,20 +31,16 @@ while intentos > 0:
     usuario = input("Usuario: ")
     contraseña = input("Contraseña: ")
 
-    if not validar_usuario(usuario):
-        print("Usuario invalido. Debe ser alfanumerico y sin espacios.")
-        continue
-
-    if not validar_contraseña(contraseña):
-        print("Contraseña invalida. Minimo 8 caracteres, 1 letra y 1 numero.")
-        continue
-
-    if usuario == usuario_correcto and contraseña == contraseña_correcta:
-        print("Bienvenido")
-        break
-    else:
+    if (not validar_usuario(usuario) or 
+        not validar_contraseña(contraseña) or
+        usuario != usuario_correcto or
+        contraseña != contraseña_correcta):
+        
         intentos -= 1
         print(f"Incorrecto. Te quedan {intentos} intentos.")
+    else:
+        print("Bienvenido")
+        break
 
 if intentos == 0:
     print("Intentos terminados. Bloqueado.")
